@@ -15,5 +15,7 @@ public class Main {
         Student stu2 = new Student("1612190201", "张三",
             "男", 30, "财会学院", "5201314");
         repository.addStudent(stu2);
+        
+        System.out.println("Hello world");
     }
 }
