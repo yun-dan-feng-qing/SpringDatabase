@@ -17,5 +17,7 @@ public class Main {
         repository.addStudent(stu2);
         
         System.out.println("Hello world");
+
+        System.out.println("拉取代码");
     }
 }
