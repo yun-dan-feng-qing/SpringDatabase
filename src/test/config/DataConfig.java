@@ -28,6 +28,7 @@ public class DataConfig {
     // 使用JDBC模板JdbcTemplate
     @Bean
     public JdbcTemplate jdbcTemplate(DataSource dataSource){
+
         return new JdbcTemplate(dataSource);
     }
 }
